@@ -1,4 +1,4 @@
-# SeyiAk | Premium Frontend Engineer Portfolio
+# SeyiAk | Frontend Engineer Portfolio
 
 A futuristic, highly interactive, and premium frontend engineer portfolio designed to showcase projects with a focus on immersive user experiences. The application features a "Liquid Glass" theme, utilizing advanced glassmorphism, WebGL backgrounds, and heavily optimized CSS/JavaScript animations.
 
