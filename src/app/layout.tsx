@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Navbar } from "@/components/ui/Navbar";
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -14,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Frontend Engineer Portfolio | Liquid Glass Design",
-  description: "A premium product-focused frontend engineer specializing in accessible, highly interactive, and beautifully crafted web applications and landing pages.",
+  title: "Oluwaseyi Akinyinka | Frontend Engineer",
+  description: "A product-focused frontend engineer specializing in accessible, highly interactive, and beautifully crafted web applications and landing pages.",
 };
 
 export default function RootLayout({
@@ -35,6 +36,7 @@ export default function RootLayout({
         </div>
         <Navbar />
         {children}
+        <Analytics />
       </body>
     </html>
   );
